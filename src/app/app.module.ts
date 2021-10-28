@@ -17,9 +17,11 @@ const routes: Routes = [
     HomeComponent
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot (routes)
+
   ],
   providers: [],
   bootstrap: [AppComponent]
